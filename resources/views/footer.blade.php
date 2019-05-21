@@ -11,9 +11,9 @@
             <div class="col-lg-3 col-sm-3">
                    <h4>Informations</h4>
                    <ul class="row">
-                <li class="col-lg-12 col-sm-12 col-xs-3"><a href="about.php">A propos</a></li>
-                <li class="col-lg-12 col-sm-12 col-xs-3"><a href="agents.php">Agents</a></li>         
-                <li class="col-lg-12 col-sm-12 col-xs-3"><a href="contact.php">Contact</a></li>
+                <li class="col-lg-12 col-sm-12 col-xs-3"><a href="{{ url('/about') }}">A propos</a></li>
+                <li class="col-lg-12 col-sm-12 col-xs-3"><a href="{{ url('/agents') }}">Agents</a></li>         
+                <li class="col-lg-12 col-sm-12 col-xs-3"><a href="{{ url('/contact') }}">Contact</a></li>
               </ul>
             </div>
             

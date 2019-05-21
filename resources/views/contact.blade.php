@@ -18,9 +18,9 @@
   <div class="col-lg-6 col-sm-6 ">
 
 
-                <input type="text" class="form-control" placeholder="Full Name">
-                <input type="text" class="form-control" placeholder="Email Address">
-                <input type="text" class="form-control" placeholder="Contact Number">
+                <input type="text" class="form-control" placeholder="Nom">
+                <input type="text" class="form-control" placeholder="Email">
+                <input type="text" class="form-control" placeholder="Numéro">
                 <textarea rows="6" class="form-control" placeholder="Message"></textarea>
       <button type="submit" class="btn btn-success" name="Submit">Envoyer</button>
           

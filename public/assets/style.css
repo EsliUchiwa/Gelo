@@ -45,9 +45,7 @@ table{background-color: #fff;}
 .header ul li a{ font-size: 19px;font-family: din;text-transform: uppercase;}
 .header ul li a:hover{text-decoration: none;}
 
-.active > a {
-	background: green;
-}
+
 
 .navbar-inverse{background-color: #111;}
 .navbar-inverse .navbar-nav > li > a{font-size: 11px;padding-top: 10px;padding-bottom: 10px;font-family: din;text-transform: uppercase;}
@@ -145,5 +143,13 @@ h2{font-size: 25px;}
 }
 
 .carousel-inner img{
-	max-height: 500px;
+	max-height: 430px;
+}
+
+.carousel-caption h2{
+	color: white;
+}
+
+.carousel-caption{
+	
 }

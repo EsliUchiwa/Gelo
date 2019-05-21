@@ -1,9 +1,11 @@
-<?php include'header.php';?>
-<!-- banner -->
+@extends('header')
+
+
+@section('contenu')<!-- banner -->
 <div class="inside-banner">
   <div class="container"> 
-    <span class="pull-right"><a href="index.php">Home</a> / Buy, Sale & Rent</span>
-    <h2>Buy, Sale & Rent</h2>
+    <span class="pull-right"><a href="index.php">Home</a> / Acheter, Vendre & Louer</span>
+    <h2>Acheter, Vendre & Louer</h2>
 </div>
 </div>
 <!-- banner -->
@@ -15,19 +17,19 @@
 <div class="row">
 <div class="col-lg-3 col-sm-4 ">
 
-  <div class="search-form"><h4><span class="glyphicon glyphicon-search"></span> Search for</h4>
-    <input type="text" class="form-control" placeholder="Search of Properties">
+  <div class="search-form"><h4><span class="glyphicon glyphicon-search"></span> Recherche</h4>
+    <input type="text" class="form-control" placeholder="Chercher les propriétés">
     <div class="row">
             <div class="col-lg-5">
               <select class="form-control">
-                <option>Buy</option>
-                <option>Rent</option>
-                <option>Sale</option>
+                <option>Acheter</option>
+                <option>Vendre</option>
+                <option>Louer</option>
               </select>
             </div>
             <div class="col-lg-7">
               <select class="form-control">
-                <option>Price</option>
+                <option>Prix</option>
                 <option>$150,000 - $200,000</option>
                 <option>$200,000 - $250,000</option>
                 <option>$250,000 - $300,000</option>
@@ -39,14 +41,14 @@
           <div class="row">
           <div class="col-lg-12">
               <select class="form-control">
-                <option>Property Type</option>
-                <option>Apartment</option>
-                <option>Building</option>
-                <option>Office Space</option>
+                <option>Type de propriété</option>
+                <option>Aparttement</option>
+                <option>Bâtiment</option>
+                <option>Espace bureau</option>
               </select>
               </div>
           </div>
-          <button class="btn btn-primary">Find Now</button>
+          <button class="btn btn-primary">Rechercher</button>
 
   </div>
 
@@ -284,4 +286,4 @@
 </div>
 </div>
 
-<?php include'footer.php';?>
+@endsection
