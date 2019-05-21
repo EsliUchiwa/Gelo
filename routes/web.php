@@ -12,5 +12,31 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
+});
+
+Route::get('/about', function () {
+    return view('about');
+});
+
+
+Route::get('/contact', function () {
+    return view('contact');
+});
+
+
+Route::get('/register', function () {
+    return view('register');
+});
+
+Route::get('/property-detail', function () {
+    return view('property-detail');
+});
+
+Route::get('/buysalerent', function () {
+    return view('buysalerent');
+});
+
+Route::get('/agents', function () {
+    return view('agents');
 });
