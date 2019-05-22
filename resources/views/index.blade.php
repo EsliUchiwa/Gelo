@@ -41,6 +41,7 @@
                                   <div class="col-lg-4">
                                     <h2>L'appartement fait pour vous?</h2>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                                    <p><span class='glyphicon glyphicon-map-marker' style='font-size:24px'></span>Au BENIN</p>
                                     <p><a class="btn btn-primary" href="#" role="button">Rechercher</a></p>
                                   </div>
                                   <div class="col-lg-8">
@@ -57,7 +58,7 @@
                             <div class="carousel-caption">
                               <div class="row">
                               <div class="col-lg-4">
-                                <h2>Besoin d'un appartement partout au Benin?</h2>
+                                <h2>Besoin d'un appartement partout sur le territoire?</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
                                 <p><a class="btn btn-primary" href="#" role="button">Rechercher</a></p>
                               </div>
@@ -131,7 +132,7 @@
         <div class="image-holder"><img src="/images/properties/1.jpg" class="img-responsive" alt="properties"/>
           <div class="status sold">Sold</div>
         </div>
-        <h4><a href="{{ url('/property-detail')}}"Appartement>Royal Inn</a></h4>
+        <h4><a href="#">Appartement</a></h4>
         <p class="price">Prix: 234,900</p>
         <div class="listing-detail"><span data-toggle="tooltip" data-placement="bottom" data-original-title="Bed Room">5</span> <span data-toggle="tooltip" data-placement="bottom" data-original-title="Living Room">2</span> <span data-toggle="tooltip" data-placement="bottom" data-original-title="Parking">2</span> <span data-toggle="tooltip" data-placement="bottom" data-original-title="Kitchen">1</span> </div>
         <a class="btn btn-success" href="{{ url('/property-detail') }}">Voir les détails</a>
@@ -140,21 +141,21 @@
         <div class="image-holder"><img src="/images/properties/2.jpg" class="img-responsive" alt="properties"/>
           <div class="status new">New</div>
         </div>
-        <h4><a href="{{ url('/property-detAppartement>Royal Inn</a></h4>
+        <h4><a href="">Appartement</a></h4>
         <p class="price">Prix: 234,900</p>
         <div class="listing-detail"><span data-toggle="tooltip" data-placement="bottom" data-original-title="Bed Room">5</span> <span data-toggle="tooltip" data-placement="bottom" data-original-title="Living Room">2</span> <span data-toggle="tooltip" data-placement="bottom" data-original-title="Parking">2</span> <span data-toggle="tooltip" data-placement="bottom" data-original-title="Kitchen">1</span> </div>
         <a class="btn btn-success" href="{{ url('/property-detail') }}">Voir les détails</a>
       </div>
       <div class="properties">
         <div class="image-holder"><img src="/images/properties/3.jpg" class="img-responsive" alt="properties"/></div>
-        <h4><a href="{{ url('/property-detail')}}"Appartement>Royal Inn</a></h4>
+        <h4><a href="#">Appartement</a></h4>
         <p class="price">Prix: 234,900</p>
         <div class="listing-detail"><span data-toggle="tooltip" data-placement="bottom" data-original-title="Bed Room">5</span> <span data-toggle="tooltip" data-placement="bottom" data-original-title="Living Room">2</span> <span data-toggle="tooltip" data-placement="bottom" data-original-title="Parking">2</span> <span data-toggle="tooltip" data-placement="bottom" data-original-title="Kitchen">1</span> </div>
         <a class="btn btn-success" href="{{ url('/property-detail') }}">Voir les détails</a>
       </div>
       <div class="properties">
         <div class="image-holder"><img src="/images/properties/4.jpg" class="img-responsive" alt="properties"/></div>
-        <h4><a href="{{ url('/property-detail')}}"Appartement>Royal Inn</a></h4>
+        <h4><a href="#">Appartement</a></h4>
         <p class="price">Prix: 234,900</p>
         <div class="listing-detail"><span data-toggle="tooltip" data-placement="bottom" data-original-title="Bed Room">5</span> <span data-toggle="tooltip" data-placement="bottom" data-original-title="Living Room">2</span> <span data-toggle="tooltip" data-placement="bottom" data-original-title="Parking">2</span> <span data-toggle="tooltip" data-placement="bottom" data-original-title="Kitchen">1</span> </div>
         <a class="btn btn-success" href="{{ url('/property-detail') }}">Voir les détails</a>
@@ -163,7 +164,7 @@
         <div class="image-holder"><img src="/images/properties/1.jpg" class="img-responsive" alt="properties"/>
           <div class="status sold">Sold</div>
         </div>
-        <h4><a href="{{ url('/property-detail')}}"Appartement>Royal Inn</a></h4>
+        <h4><a href="#">Appartement</a></h4>
         <p class="price">Prix: 234,900</p>
         <div class="listing-detail"><span data-toggle="tooltip" data-placement="bottom" data-original-title="Bed Room">5</span> <span data-toggle="tooltip" data-placement="bottom" data-original-title="Living Room">2</span> <span data-toggle="tooltip" data-placement="bottom" data-original-title="Parking">2</span> <span data-toggle="tooltip" data-placement="bottom" data-original-title="Kitchen">1</span> </div>
         <a class="btn btn-success" href="{{ url('/property-detail') }}">Voir les détails</a>
@@ -172,7 +173,7 @@
         <div class="image-holder"><img src="/images/properties/2.jpg" class="img-responsive" alt="properties"/>
           <div class="status sold">Sold</div>
         </div>
-        <h4><a href="{{ url('/property-detail')}}"Appartement>>Royal Inn</a></h4>
+        <h4><a href="#">Appartement</a></h4>
         <p class="price">Prix: 234,900</p>
         <div class="listing-detail"><span data-toggle="tooltip" data-placement="bottom" data-original-title="Bed Room">5</span> <span data-toggle="tooltip" data-placement="bottom" data-original-title="Living Room">2</span> <span data-toggle="tooltip" data-placement="bottom" data-original-title="Parking">2</span> <span data-toggle="tooltip" data-placement="bottom" data-original-title="Kitchen">1</span> </div>
         <a class="btn btn-success" href="{{ url('/property-detail') }}">Voir les détails</a>
@@ -181,7 +182,7 @@
         <div class="image-holder"><img src="/images/properties/3.jpg" class="img-responsive" alt="properties"/>
           <div class="status new">New</div>
         </div>
-        <h4><a href="property-detail.php">Appartement</a></h4>
+        <h4><a href="#">Appartement</a></h4>
         <p class="price">Prix: 234,900</p>
         <div class="listing-detail"><span data-toggle="tooltip" data-placement="bottom" data-original-title="Bed Room">5</span> <span data-toggle="tooltip" data-placement="bottom" data-original-title="Living Room">2</span> <span data-toggle="tooltip" data-placement="bottom" data-original-title="Parking">2</span> <span data-toggle="tooltip" data-placement="bottom" data-original-title="Kitchen">1</span> </div>
         <a class="btn btn-success" href="{{ url('/property-detail') }}">Voir les détails</a>
@@ -225,12 +226,12 @@
       
       </div>
       <div class="col-lg-5 col-lg-offset-1 col-sm-3 recommended">
-        <h3>Propriétés recommendés </h3>
+        <h3>Propriétés recommendées </h3>
               <div class="row">
                 <div class="col-lg-4"><img src="images/properties/1.jpg" class="img-responsive" alt="properties"/></div>
                 <div class="col-lg-8">
                   <h5><a href="property-detail.php">Appartement de luxe</a></h5>
-                  <p class="price">$300,000</p>
+                  <p class="price">300,000</p>
                   <a href="{{ url('/property-detail') }}" class="more">Plus de détails</a> </div>
               </div>
       </div>
